@@ -25,8 +25,12 @@
                                                                             x
 -->
     <div class="grid xl:grid-cols-[60%_1fr]">
-      <div class="relative">
-        <img src="img/10.jpg" alt="brown hair woman" class="w-full" />
+      <div class="relative overflow-hidden group">
+        <img
+          src="img/10.jpg"
+          alt="brown hair woman"
+          class="w-full transition-transform group-hover:scale-110 duration-500"
+        />
         <div
           class="absolute text-white text-[2em] inset-0 grid content-end p-[5%] text-left"
         >
@@ -50,7 +54,11 @@
           ODŻYWKA BEZ SPŁUKIWANIA <br />
           <span class="text-primary">NR 1 NA ŚWIECIE**</span>
         </p>
-        <img src="img/1pack.png" alt="packaging" class="mx-auto" />
+        <img
+          src="img/1pack.png"
+          alt="packaging"
+          class="mx-auto transition-transform hover:scale-110 duration-500"
+        />
       </div>
     </div>
     <!--                                                                    xxxxx
@@ -77,7 +85,7 @@
         class="flex flex-wrap justify-center gap-4 mt-4 text-center font-bold"
       >
         <div data-animation="fade-in" data-delay="600ms" class="w-40">
-          <img src="img/2.png" alt="icon 1" />
+          <img src="img/2.png" alt="icon 1" class="" />
           <p>Odżywia i wygładza</p>
         </div>
         <div data-animation="fade-in" data-delay="800ms" class="w-40">
@@ -114,7 +122,11 @@
           <strong>Ochrona</strong> przed puszeniem się włosów
           <strong>do 72 godzin*</strong>
         </p>
-        <img src="img/3.png" alt="hair" class="lg:order-first" />
+        <img
+          src="img/3.png"
+          alt="hair"
+          class="lg:order-first hover:translate-x-8 transition-transform duration-500"
+        />
       </div>
       <div
         data-animation="fade-from-right"
@@ -123,7 +135,11 @@
         <p class="text-[1.1em] mt-8 lg:mt-[90%] ml-[10%]">
           6x bardziej <strong>lśniące włosy*</strong>
         </p>
-        <img src="img/31.png" alt="woman" />
+        <img
+          src="img/31.png"
+          alt="woman"
+          class="hover:-translate-x-8 transition-transform duration-500"
+        />
       </div>
     </div>
     <!--                                                                    x   x
@@ -156,7 +172,11 @@
         >
           <use href="#line1"></use>
         </svg>
-        <img src="img/4.jpg" alt="szampon" />
+        <img
+          src="img/4.jpg"
+          alt="szampon"
+          class="transition-transform duration-500 hover:scale-110"
+        />
         <div>
           <p class="font-bold text-[1.1em]">Szampon</p>
           <p>
@@ -176,7 +196,11 @@
         >
           <use href="#line2"></use>
         </svg>
-        <img src="img/41.png" alt="odżywka" class="relative" />
+        <img
+          src="img/41.png"
+          alt="odżywka"
+          class="relative transition-transform duration-500 hover:scale-110"
+        />
         <div class="lg:order-first">
           <p class="font-bold text-[1.1em]">Odżywka</p>
           <p>
@@ -190,7 +214,11 @@
         data-animation="fade-from-left"
         class="grid lg:grid-cols-2 items-center justify-items-center gap-4 relative"
       >
-        <img src="img/42.png" alt="olejek" />
+        <img
+          src="img/42.png"
+          alt="olejek"
+          class="transition-transform duration-500 hover:scale-110"
+        />
         <div>
           <p class="font-bold text-[1.1em]">Eliksir</p>
           <p>
@@ -301,8 +329,12 @@
           data-delay="600ms"
           class="min-w-[250px] max-w-[300px] flex-1 grid grid-rows-[478px_auto_auto]"
         >
-          <img src="img/8.jpg" alt="szampon" class="self-center" />
-          <p>Szampon odżywczy</p>
+          <img
+            src="img/8.jpg"
+            alt="szampon"
+            class="self-center transition-transform duration-500 hover:scale-105"
+          />
+          <p class="relative">Szampon odżywczy</p>
           <button class="mt-4 justify-self-center">kup teraz</button>
         </div>
         <div
@@ -310,7 +342,11 @@
           data-delay="800ms"
           class="min-w-[250px] max-w-[300px] flex-1 grid grid-rows-[478px_auto_auto]"
         >
-          <img src="img/81.jpg" alt="odżywka" class="self-center" />
+          <img
+            src="img/81.jpg"
+            alt="odżywka"
+            class="self-center transition-transform duration-500 hover:scale-105"
+          />
           <p>Kremowa odżywka</p>
           <button class="mt-4 justify-self-center">kup teraz</button>
         </div>
@@ -319,7 +355,11 @@
           data-delay="1s"
           class="min-w-[250px] max-w-[300px] flex-1 grid grid-rows-[478px_auto_auto]"
         >
-          <img src="img/82.jpg" alt="maska" class="self-center" />
+          <img
+            src="img/82.jpg"
+            alt="maska"
+            class="self-center transition-transform duration-500 hover:scale-105"
+          />
           <p>Maska odżywcza</p>
           <button class="mt-4 justify-self-center">kup teraz</button>
         </div>
@@ -328,7 +368,11 @@
           data-delay="1200ms"
           class="min-w-[250px] max-w-[300px] flex-1 grid grid-rows-[478px_auto_auto]"
         >
-          <img src="img/83.jpg" alt="eliksir" class="self-center" />
+          <img
+            src="img/83.jpg"
+            alt="eliksir"
+            class="self-center transition-transform duration-500 hover:scale-105"
+          />
           <p>Eliksir odżywczy</p>
           <button class="mt-4 justify-self-center">kup teraz</button>
         </div>
@@ -427,7 +471,14 @@
           stroke-linejoin="miter"
           fill="none"
           d="M4.345,70.526 C4.345,70.526 90.960,182.286 263.254,92.550 C263.254,92.550 316.652,42.894 270.966,4.453 C270.966,4.453 219.815,-2.465 223.592,76.032 C223.592,76.032 215.695,152.933 287.493,150.915 C359.290,148.896 423.807,82.198 470.382,126.688 "
-        />
+        >
+          <animate
+            attributeName="stroke-dashoffset"
+            to="-22.74"
+            dur="5s"
+            repeatCount="indefinite"
+          />
+        </path>
       </symbol>
       <symbol id="line2" width="471.685px" height="306.685px">
         <path
@@ -439,7 +490,14 @@
           stroke-linejoin="miter"
           fill="none"
           d="M466.573,16.113 C466.573,16.113 320.340,-42.850 294.702,104.210 C294.702,104.210 281.378,155.877 367.417,163.675 C367.417,163.675 398.598,160.768 392.757,118.526 C392.757,118.526 321.036,49.806 205.460,118.526 C89.885,187.245 193.852,245.168 2.740,300.226 "
-        />
+        >
+          <animate
+            attributeName="stroke-dashoffset"
+            to="-22.74"
+            dur="5s"
+            repeatCount="indefinite"
+          />
+        </path>
       </symbol>
       <symbol id="line3" width="111.685px" height="168.685px">
         <path
